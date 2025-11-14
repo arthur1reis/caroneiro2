@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat - Caroneiro</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="navbar">
+    <div class="logo">Caroneiro</div>
+    <nav>
+        <a href="index.html">Início</a>
+        <a href="perfil.html">Perfil</a>
+    </nav>
+</header>
+
+<div class="chat-container">
+
+    <aside class="lista-conversas">
+        <h3>Conversas</h3>
+        <div class="conversa">João - Rio de Janeiro</div>
+        <div class="conversa">Maria - Curitiba</div>
+    </aside>
+
+    <main class="chat-area">
+        <div id="mensagens" class="mensagens"></div>
+
+        <div class="enviar">
+            <input type="text" id="msgInput" placeholder="Digite uma mensagem...">
+            <button id="btnEnviar">Enviar</button>
+        </div>
+    </main>
+
+</div>
+
+<script src="js/chat.js"></script>
+</body>
+</html>
